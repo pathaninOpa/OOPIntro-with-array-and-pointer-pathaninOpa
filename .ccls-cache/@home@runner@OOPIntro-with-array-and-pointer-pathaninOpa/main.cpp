@@ -31,6 +31,7 @@ int i;
       highest_loc = i;
     } 
   }
+
   for (i = 0; i < n; i++){
     if ((*(pt_std+i)).get_score() == highest){
       (*(pt_std + i)).print_all();
