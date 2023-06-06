@@ -24,11 +24,10 @@ int i;
     //(pt_std+i)->print_all();
     //pt_std[i].print_all();
   }*/
-  int highest = (*(pt_std)).get_score(),highest_loc;
+  int highest = (*(pt_std)).get_score();
   for (i = 0; i < n; i++){
     if ((*(pt_std+i)).get_score() >= highest){
       highest = (*(pt_std+i)).get_score();
-      highest_loc = i;
     } 
   }
 
