@@ -16,7 +16,7 @@ class student{
 		    void print_name();
         void set_age(int);
         int get_age(){ return age;}
-        int get_score(){ return score;}
+        float get_score(){ return score;}
        void set_all(string,int,float=0);
        void print_all();
 };
